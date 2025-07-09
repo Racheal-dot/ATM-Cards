@@ -44,9 +44,16 @@ nav a {
 }
 
 .card img {
+    display: block;
     width: 250px;
     height: 148px;
     margin: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer; 
+}
+.card img:hover{
+  transform: scale(1.05);
 }
 
 .card {
