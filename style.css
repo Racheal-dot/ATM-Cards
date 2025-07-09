@@ -1,0 +1,76 @@
+/* Generate reset and font */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#EDD5D5 ;
+}
+nav{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    padding: 25px;
+}
+nav h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+/* hero */
+.hero{
+    margin-top: 10px;
+}
+.card img{
+    width: 250px;
+    height: 148px;
+    margin: 20px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/* table */
+.table{
+    margin-bottom: 40px;
+}
+.table h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+table{
+    width: 100%;
+}
+th{
+    color: #fff;
+    background-color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+td{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+}
+ th, td{
+    border-collapse: collapse;
+    padding: 10px;
+}
